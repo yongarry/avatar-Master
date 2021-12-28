@@ -34,7 +34,7 @@ For direct access in unity, click Scenes/MASTER.unity in unity
 * used Features
   1. publish tracker orientation data msgs
       * tutorial [link](https://github.com/siemens/ros-sharp/wiki/Dev_NewMessageTypes)
-      * modified script: [VRPublisher_.cs](https://github.com/DyrosLab/avatar-Master/tree/main/Assets/RosSharp/Scripts/RosBridgeClient/RosCommuncation) (3x4matrix msg type geometry_msgs/pose available)
+      * modified script: [VRPublisher_.cs](https://github.com/yongarry/avatar-Master/tree/master/Assets/RosSharp/Scripts/RosBridgeClient/RosCommuncation) (3x4matrix msg type geometry_msgs/pose available)
   3. subscribe head orientation data msgs + update to screen orientation
       * [PoseSubscriber.cs](https://github.com/DyrosLab/avatar-Master/blob/main/Assets/RosSharp/Scripts/RosBridgeClient/RosCommuncation/PoseSubscriber.cs) (This occurs too much VR sickness because of msgs latency, incorrect data transfer, and individual differences)
   5. subscribe jointstates + update to URDF
